@@ -1,0 +1,72 @@
+body {
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu {
+  float: right;
+}
+
+h1 {
+  align-items: center;
+  text-align: center;
+}
+
+.burger {
+  display: none;
+  float: right;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 42%;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    position: fixed;
+    right: 0%;
+    top: 50px;
+    display: none;
+    padding: 0px;
+    height: 0px;
+    text-align: right;
+    box-shadow: 15px 5px 15px grey;
+    transition: 0.2s;
+    overflow: hidden;
+  }
+  .burger {
+    display: block;
+    top: 0%;
+  }
+
+  .menuItem {
+    display: block;
+    padding: 10px;
+  }
+
+  .burger img {
+    width: 50%;
+    margin-left: 50%;
+  }
+  label {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  input {
+    width: 98%;
+    margin: 5px;
+  }
+  input[type="submit"] {
+    margin-top: 25px;
+  }
+}

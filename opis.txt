@@ -1,0 +1,10 @@
+1.baza danych |wrzesień| 
+2. grafika strony
+3. rejestracja i logowanie |wrzesień|
+4. posty 
+5. komentarze
+6. like'i 
+7. znajomi 
+8. udostępnianie
+9. story 
+10. powiadomienia
